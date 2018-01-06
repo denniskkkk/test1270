@@ -1,0 +1,11 @@
+Fitter Status : Successful - Tue Dec 26 20:46:49 2017
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : testmax1270
+Top-level Entity Name : testmax1270
+Family : MAX II
+Device : EPM1270T144C5
+Timing Models : Final
+Total logic elements : 46 / 1,270 ( 4 % )
+Total pins : 116 / 116 ( 100 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

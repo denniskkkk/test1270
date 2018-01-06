@@ -1,0 +1,287 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+# Date created = 19:25:40  December 25, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		testmax1270_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name DEVICE EPM1270T144C5
+set_global_assignment -name TOP_LEVEL_ENTITY testmax1270
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:25:40  DECEMBER 25, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE "ANY QFP"
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[90]
+set_location_assignment PIN_1 -to T[1]
+set_location_assignment PIN_2 -to T[2]
+set_location_assignment PIN_3 -to T[3]
+set_location_assignment PIN_4 -to T[4]
+set_location_assignment PIN_5 -to T[5]
+set_location_assignment PIN_6 -to T[6]
+set_location_assignment PIN_7 -to T[7]
+set_location_assignment PIN_8 -to T[8]
+set_location_assignment PIN_11 -to T[9]
+set_location_assignment PIN_12 -to T[10]
+set_location_assignment PIN_13 -to T[11]
+set_location_assignment PIN_14 -to T[12]
+set_location_assignment PIN_15 -to T[13]
+set_location_assignment PIN_16 -to T[14]
+set_location_assignment PIN_21 -to T[15]
+set_location_assignment PIN_22 -to T[16]
+set_location_assignment PIN_23 -to T[17]
+set_location_assignment PIN_24 -to T[18]
+set_location_assignment PIN_27 -to T[19]
+set_location_assignment PIN_28 -to T[20]
+set_location_assignment PIN_29 -to T[21]
+set_location_assignment PIN_30 -to T[22]
+set_location_assignment PIN_31 -to T[23]
+set_location_assignment PIN_32 -to T[24]
+set_location_assignment PIN_37 -to T[25]
+set_location_assignment PIN_38 -to T[26]
+set_location_assignment PIN_39 -to T[27]
+set_location_assignment PIN_40 -to T[28]
+set_location_assignment PIN_41 -to T[29]
+set_location_assignment PIN_42 -to T[30]
+set_location_assignment PIN_43 -to T[31]
+set_location_assignment PIN_44 -to T[32]
+set_location_assignment PIN_45 -to T[33]
+set_location_assignment PIN_48 -to T[34]
+set_location_assignment PIN_49 -to T[35]
+set_location_assignment PIN_50 -to T[36]
+set_location_assignment PIN_51 -to T[37]
+set_location_assignment PIN_52 -to T[38]
+set_location_assignment PIN_53 -to T[39]
+set_location_assignment PIN_55 -to T[40]
+set_location_assignment PIN_57 -to T[41]
+set_location_assignment PIN_58 -to T[42]
+set_location_assignment PIN_59 -to T[43]
+set_location_assignment PIN_60 -to T[44]
+set_location_assignment PIN_62 -to T[45]
+set_location_assignment PIN_63 -to T[46]
+set_location_assignment PIN_66 -to T[47]
+set_location_assignment PIN_67 -to T[48]
+set_location_assignment PIN_68 -to T[49]
+set_location_assignment PIN_69 -to T[50]
+set_location_assignment PIN_70 -to T[51]
+set_location_assignment PIN_71 -to T[52]
+set_location_assignment PIN_72 -to T[53]
+set_location_assignment PIN_73 -to T[54]
+set_location_assignment PIN_74 -to T[55]
+set_location_assignment PIN_75 -to T[56]
+set_location_assignment PIN_76 -to T[57]
+set_location_assignment PIN_77 -to T[58]
+set_location_assignment PIN_78 -to T[59]
+set_location_assignment PIN_79 -to T[60]
+set_location_assignment PIN_80 -to T[61]
+set_location_assignment PIN_81 -to T[62]
+set_location_assignment PIN_84 -to T[63]
+set_location_assignment PIN_85 -to T[64]
+set_location_assignment PIN_86 -to T[65]
+set_location_assignment PIN_87 -to T[66]
+set_location_assignment PIN_88 -to T[67]
+set_location_assignment PIN_89 -to T[68]
+set_location_assignment PIN_91 -to T[69]
+set_location_assignment PIN_93 -to T[70]
+set_location_assignment PIN_94 -to T[71]
+set_location_assignment PIN_95 -to T[72]
+set_location_assignment PIN_96 -to T[73]
+set_location_assignment PIN_97 -to T[74]
+set_location_assignment PIN_98 -to T[75]
+set_location_assignment PIN_101 -to T[76]
+set_location_assignment PIN_102 -to T[77]
+set_location_assignment PIN_103 -to T[78]
+set_location_assignment PIN_104 -to T[79]
+set_location_assignment PIN_105 -to T[80]
+set_location_assignment PIN_106 -to T[81]
+set_location_assignment PIN_107 -to T[82]
+set_location_assignment PIN_108 -to T[83]
+set_location_assignment PIN_109 -to T[84]
+set_location_assignment PIN_110 -to T[85]
+set_location_assignment PIN_111 -to T[86]
+set_location_assignment PIN_112 -to T[87]
+set_location_assignment PIN_113 -to T[88]
+set_location_assignment PIN_114 -to T[89]
+set_location_assignment PIN_117 -to T[90]
+set_location_assignment PIN_118 -to T[91]
+set_location_assignment PIN_119 -to T[92]
+set_location_assignment PIN_120 -to T[93]
+set_location_assignment PIN_121 -to T[94]
+set_location_assignment PIN_122 -to T[95]
+set_location_assignment PIN_123 -to T[96]
+set_location_assignment PIN_124 -to T[97]
+set_location_assignment PIN_125 -to T[98]
+set_location_assignment PIN_127 -to T[99]
+set_location_assignment PIN_18 -to CLK1
+set_location_assignment PIN_20 -to CLK2
+set_location_assignment PIN_129 -to T[100]
+set_location_assignment PIN_130 -to T[101]
+set_location_assignment PIN_131 -to T[102]
+set_location_assignment PIN_132 -to T[103]
+set_location_assignment PIN_133 -to T[104]
+set_location_assignment PIN_134 -to T[105]
+set_location_assignment PIN_138 -to T[107]
+set_location_assignment PIN_139 -to T[108]
+set_location_assignment PIN_140 -to T[109]
+set_location_assignment PIN_141 -to T[110]
+set_location_assignment PIN_142 -to T[111]
+set_location_assignment PIN_143 -to T[112]
+set_location_assignment PIN_144 -to T[113]
+set_location_assignment PIN_137 -to T[106]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[18]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[19]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[20]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[21]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[22]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[23]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[24]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[25]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[26]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[27]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[28]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[29]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[30]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[31]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[32]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[33]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[34]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[35]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[36]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[37]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[38]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[39]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[40]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[41]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[42]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[43]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[44]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[45]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[46]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[47]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[48]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[49]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[50]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[51]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[52]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[53]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[54]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[55]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[56]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[57]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[58]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[59]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[60]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[61]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[62]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[63]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[64]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[65]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[66]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[67]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[68]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[69]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[70]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[71]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[72]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[73]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[74]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[75]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[76]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[77]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[78]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[79]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[80]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[81]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[82]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[83]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[84]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[85]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[86]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[87]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[88]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[89]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[91]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[92]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[93]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[94]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[95]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[96]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[97]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[98]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[99]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[100]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[101]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[102]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[103]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[104]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[105]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[106]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[107]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[108]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[109]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[110]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[111]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[112]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to T[113]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to CLK1
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to CLK2
+set_location_assignment PIN_61 -to rst
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rst
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_global_assignment -name VERILOG_FILE testmax1270.v
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name VERILOG_FILE shiftreg.v

@@ -1,0 +1,29 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'CLK2'
+Slack : -5.163
+TNS   : -134.544
+
+Type  : Setup 'CLK1'
+Slack : -1.812
+TNS   : -15.323
+
+Type  : Hold 'CLK1'
+Slack : 1.377
+TNS   : 0.000
+
+Type  : Hold 'CLK2'
+Slack : 1.667
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'CLK1'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'CLK2'
+Slack : -2.289
+TNS   : -2.289
+
+------------------------------------------------------------
